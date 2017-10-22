@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.spider.mapper.LianjiaHouseMapper" >
+  <resultMap id="BaseResultMap" type="com.spider.pojo.LianjiaHouse" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="title" property="title" jdbcType="VARCHAR" />
+    <result column="xiaoqu" property="xiaoqu" jdbcType="VARCHAR" />
+    <result column="mianji" property="mianji" jdbcType="REAL" />
+    <result column="place" property="place" jdbcType="VARCHAR" />
+    <result column="focus" property="focus" jdbcType="INTEGER" />
+    <result column="watch" property="watch" jdbcType="INTEGER" />
+    <result column="total_price" property="totalPrice" jdbcType="INTEGER" />
+    <result column="avg_price" property="avgPrice" jdbcType="INTEGER" />
+    <result column="jingdu" property="jingdu" jdbcType="DOUBLE" />
+    <result column="weidu" property="weidu" jdbcType="DOUBLE" />
+    <result column="city" property="city" jdbcType="VARCHAR" />
+    <result column="qu" property="qu" jdbcType="VARCHAR" />
+    <result column="date" property="date" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, title, xiaoqu, mianji, place, focus, watch, total_price, avg_price, jingdu, weidu, 
+    city, qu, date
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.spider.pojo.LianjiaHouseExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from lianjia_house
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from lianjia_house
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from lianjia_house
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.spider.pojo.LianjiaHouseExample" >
+    delete from lianjia_house
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.spider.pojo.LianjiaHouse" >
+    insert into lianjia_house (id, title, xiaoqu, 
+      mianji, place, focus, 
+      watch, total_price, avg_price, 
+      jingdu, weidu, city, 
+      qu, date)
+    values (#{id,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{xiaoqu,jdbcType=VARCHAR}, 
+      #{mianji,jdbcType=REAL}, #{place,jdbcType=VARCHAR}, #{focus,jdbcType=INTEGER}, 
+      #{watch,jdbcType=INTEGER}, #{totalPrice,jdbcType=INTEGER}, #{avgPrice,jdbcType=INTEGER}, 
+      #{jingdu,jdbcType=DOUBLE}, #{weidu,jdbcType=DOUBLE}, #{city,jdbcType=VARCHAR}, 
+      #{qu,jdbcType=VARCHAR}, #{date,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.spider.pojo.LianjiaHouse" >
+    insert into lianjia_house
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="title != null" >
+        title,
+      </if>
+      <if test="xiaoqu != null" >
+        xiaoqu,
+      </if>
+      <if test="mianji != null" >
+        mianji,
+      </if>
+      <if test="place != null" >
+        place,
+      </if>
+      <if test="focus != null" >
+        focus,
+      </if>
+      <if test="watch != null" >
+        watch,
+      </if>
+      <if test="totalPrice != null" >
+        total_price,
+      </if>
+      <if test="avgPrice != null" >
+        avg_price,
+      </if>
+      <if test="jingdu != null" >
+        jingdu,
+      </if>
+      <if test="weidu != null" >
+        weidu,
+      </if>
+      <if test="city != null" >
+        city,
+      </if>
+      <if test="qu != null" >
+        qu,
+      </if>
+      <if test="date != null" >
+        date,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="title != null" >
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="xiaoqu != null" >
+        #{xiaoqu,jdbcType=VARCHAR},
+      </if>
+      <if test="mianji != null" >
+        #{mianji,jdbcType=REAL},
+      </if>
+      <if test="place != null" >
+        #{place,jdbcType=VARCHAR},
+      </if>
+      <if test="focus != null" >
+        #{focus,jdbcType=INTEGER},
+      </if>
+      <if test="watch != null" >
+        #{watch,jdbcType=INTEGER},
+      </if>
+      <if test="totalPrice != null" >
+        #{totalPrice,jdbcType=INTEGER},
+      </if>
+      <if test="avgPrice != null" >
+        #{avgPrice,jdbcType=INTEGER},
+      </if>
+      <if test="jingdu != null" >
+        #{jingdu,jdbcType=DOUBLE},
+      </if>
+      <if test="weidu != null" >
+        #{weidu,jdbcType=DOUBLE},
+      </if>
+      <if test="city != null" >
+        #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="qu != null" >
+        #{qu,jdbcType=VARCHAR},
+      </if>
+      <if test="date != null" >
+        #{date,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.spider.pojo.LianjiaHouseExample" resultType="java.lang.Integer" >
+    select count(*) from lianjia_house
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update lianjia_house
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.title != null" >
+        title = #{record.title,jdbcType=VARCHAR},
+      </if>
+      <if test="record.xiaoqu != null" >
+        xiaoqu = #{record.xiaoqu,jdbcType=VARCHAR},
+      </if>
+      <if test="record.mianji != null" >
+        mianji = #{record.mianji,jdbcType=REAL},
+      </if>
+      <if test="record.place != null" >
+        place = #{record.place,jdbcType=VARCHAR},
+      </if>
+      <if test="record.focus != null" >
+        focus = #{record.focus,jdbcType=INTEGER},
+      </if>
+      <if test="record.watch != null" >
+        watch = #{record.watch,jdbcType=INTEGER},
+      </if>
+      <if test="record.totalPrice != null" >
+        total_price = #{record.totalPrice,jdbcType=INTEGER},
+      </if>
+      <if test="record.avgPrice != null" >
+        avg_price = #{record.avgPrice,jdbcType=INTEGER},
+      </if>
+      <if test="record.jingdu != null" >
+        jingdu = #{record.jingdu,jdbcType=DOUBLE},
+      </if>
+      <if test="record.weidu != null" >
+        weidu = #{record.weidu,jdbcType=DOUBLE},
+      </if>
+      <if test="record.city != null" >
+        city = #{record.city,jdbcType=VARCHAR},
+      </if>
+      <if test="record.qu != null" >
+        qu = #{record.qu,jdbcType=VARCHAR},
+      </if>
+      <if test="record.date != null" >
+        date = #{record.date,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update lianjia_house
+    set id = #{record.id,jdbcType=INTEGER},
+      title = #{record.title,jdbcType=VARCHAR},
+      xiaoqu = #{record.xiaoqu,jdbcType=VARCHAR},
+      mianji = #{record.mianji,jdbcType=REAL},
+      place = #{record.place,jdbcType=VARCHAR},
+      focus = #{record.focus,jdbcType=INTEGER},
+      watch = #{record.watch,jdbcType=INTEGER},
+      total_price = #{record.totalPrice,jdbcType=INTEGER},
+      avg_price = #{record.avgPrice,jdbcType=INTEGER},
+      jingdu = #{record.jingdu,jdbcType=DOUBLE},
+      weidu = #{record.weidu,jdbcType=DOUBLE},
+      city = #{record.city,jdbcType=VARCHAR},
+      qu = #{record.qu,jdbcType=VARCHAR},
+      date = #{record.date,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.spider.pojo.LianjiaHouse" >
+    update lianjia_house
+    <set >
+      <if test="title != null" >
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="xiaoqu != null" >
+        xiaoqu = #{xiaoqu,jdbcType=VARCHAR},
+      </if>
+      <if test="mianji != null" >
+        mianji = #{mianji,jdbcType=REAL},
+      </if>
+      <if test="place != null" >
+        place = #{place,jdbcType=VARCHAR},
+      </if>
+      <if test="focus != null" >
+        focus = #{focus,jdbcType=INTEGER},
+      </if>
+      <if test="watch != null" >
+        watch = #{watch,jdbcType=INTEGER},
+      </if>
+      <if test="totalPrice != null" >
+        total_price = #{totalPrice,jdbcType=INTEGER},
+      </if>
+      <if test="avgPrice != null" >
+        avg_price = #{avgPrice,jdbcType=INTEGER},
+      </if>
+      <if test="jingdu != null" >
+        jingdu = #{jingdu,jdbcType=DOUBLE},
+      </if>
+      <if test="weidu != null" >
+        weidu = #{weidu,jdbcType=DOUBLE},
+      </if>
+      <if test="city != null" >
+        city = #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="qu != null" >
+        qu = #{qu,jdbcType=VARCHAR},
+      </if>
+      <if test="date != null" >
+        date = #{date,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.spider.pojo.LianjiaHouse" >
+    update lianjia_house
+    set title = #{title,jdbcType=VARCHAR},
+      xiaoqu = #{xiaoqu,jdbcType=VARCHAR},
+      mianji = #{mianji,jdbcType=REAL},
+      place = #{place,jdbcType=VARCHAR},
+      focus = #{focus,jdbcType=INTEGER},
+      watch = #{watch,jdbcType=INTEGER},
+      total_price = #{totalPrice,jdbcType=INTEGER},
+      avg_price = #{avgPrice,jdbcType=INTEGER},
+      jingdu = #{jingdu,jdbcType=DOUBLE},
+      weidu = #{weidu,jdbcType=DOUBLE},
+      city = #{city,jdbcType=VARCHAR},
+      qu = #{qu,jdbcType=VARCHAR},
+      date = #{date,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

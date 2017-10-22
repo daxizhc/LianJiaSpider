@@ -1,0 +1,177 @@
+22:05:11 [INFO] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(510) | Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@61064425: startup date [Wed Oct 11 22:05:11 CST 2017]; root of context hierarchy
+ 22:05:11 [INFO] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring/applicationContext-dao.xml]
+ 22:05:12 [INFO] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from file [/Users/zhanghaochen/Documents/workspace/spider-lianjia/target/classes/properties/db.properties]
+ 22:05:15 [INFO] com.spider.utils.LogUtil.logInfo(31) | 正在爬取第42页
+ 22:05:17 [INFO] com.alibaba.druid.pool.DruidDataSource.init(655) | {dataSource-1} inited
+ 22:05:18 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:18 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=满五唯一免双税，精装修，东边套, xiaoqu=人和家园, mianji=119.89, place=留下, focus=6, watch=0, totalPrice=250, avgPrice=20853, jingdu=120.048782, weidu=30.245148, city=hz, qu=xihu, date=Wed Oct 11 22:05:17 CST 2017]
+ 22:05:21 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:21 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=嘉绿景苑南园 3室2厅 457万, xiaoqu=嘉绿景苑南园, mianji=108.83, place=文三西路, focus=0, watch=1, totalPrice=457, avgPrice=41993, jingdu=120.103106, weidu=30.275292, city=hz, qu=xihu, date=Wed Oct 11 22:05:21 CST 2017]
+ 22:05:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=翠苑三区 中间楼层 婚房精装修 采光好, xiaoqu=翠苑三区, mianji=61.07, place=翠苑, focus=0, watch=6, totalPrice=261, avgPrice=42738, jingdu=120.127648, weidu=30.296178, city=hz, qu=xihu, date=Wed Oct 11 22:05:24 CST 2017]
+ 22:05:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=不走破 户型正气两房 诚心卖 位置好, xiaoqu=建工新村, mianji=55.95, place=学军, focus=0, watch=0, totalPrice=330, avgPrice=58982, jingdu=120.155473, weidu=30.287977, city=hz, qu=xihu, date=Wed Oct 11 22:05:27 CST 2017]
+ 22:05:29 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:29 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=西湖区70年产权酒店式公寓、年轻人的理想居所~！, xiaoqu=枫华府第, mianji=46.2, place=翠苑, focus=1, watch=1, totalPrice=208, avgPrice=45022, jingdu=120.134172, weidu=30.287813, city=hz, qu=xihu, date=Wed Oct 11 22:05:29 CST 2017]
+ 22:05:32 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:32 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=元茂大厦 1室0厅 315万, xiaoqu=元茂大厦, mianji=138.67, place=嘉绿, focus=0, watch=0, totalPrice=315, avgPrice=22716, jingdu=120.124925, weidu=30.288383, city=hz, qu=xihu, date=Wed Oct 11 22:05:32 CST 2017]
+ 22:05:35 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:35 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=之江富城，位于象山路与镇南路交叉口，交通方便, xiaoqu=之江富城, mianji=55.55, place=转塘, focus=6, watch=5, totalPrice=100, avgPrice=18002, jingdu=120.078453, weidu=30.146461, city=hz, qu=xihu, date=Wed Oct 11 22:05:35 CST 2017]
+ 22:05:38 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:38 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=朗郡庭园，满两年税少，诚心出售, xiaoqu=朗郡庭园, mianji=210.46, place=转塘, focus=26, watch=2, totalPrice=550, avgPrice=26134, jingdu=120.074702, weidu=30.169238, city=hz, qu=xihu, date=Wed Oct 11 22:05:38 CST 2017]
+ 22:05:41 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:41 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=交通便利，得房率高。好房不等人。。。, xiaoqu=润达花园, mianji=126.49, place=三墩, focus=1, watch=1, totalPrice=360, avgPrice=28461, jingdu=120.097392, weidu=30.331907, city=hz, qu=xihu, date=Wed Oct 11 22:05:40 CST 2017]
+ 22:05:43 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:43 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=望月公寓 浙大边 生活配套齐全, xiaoqu=望月公寓, mianji=88.35, place=申花, focus=10, watch=2, totalPrice=260, avgPrice=29429, jingdu=120.096458, weidu=30.317477, city=hz, qu=xihu, date=Wed Oct 11 22:05:43 CST 2017]
+ 22:05:46 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:46 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=大平层 东边套 这个月25号满两年 价格低于市场价, xiaoqu=中海定山府, mianji=178.17, place=转塘, focus=15, watch=0, totalPrice=430, avgPrice=24135, jingdu=120.068853, weidu=30.149384, city=hz, qu=xihu, date=Wed Oct 11 22:05:46 CST 2017]
+ 22:05:49 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:49 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=泊林漫谷 2室1厅 180万, xiaoqu=泊林漫谷, mianji=86.24, place=小和山, focus=6, watch=4, totalPrice=180, avgPrice=20872, jingdu=120.010884, weidu=30.2156, city=hz, qu=xihu, date=Wed Oct 11 22:05:49 CST 2017]
+ 22:05:52 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:52 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=新上好房，小高层中层两房南一房北，, xiaoqu=枫华府第, mianji=132.0, place=翠苑, focus=2, watch=8, totalPrice=726, avgPrice=55000, jingdu=120.134172, weidu=30.287813, city=hz, qu=xihu, date=Wed Oct 11 22:05:52 CST 2017]
+ 22:05:55 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:55 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=瑞祺大厦 楼层好 交通便利 视野开阔 文一街十三中, xiaoqu=瑞祺大厦, mianji=37.6, place=文教, focus=4, watch=0, totalPrice=185, avgPrice=49203, jingdu=120.153359, weidu=30.290791, city=hz, qu=xihu, date=Wed Oct 11 22:05:55 CST 2017]
+ 22:05:58 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:05:58 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=总价低，万科品质，精装修，小区环境好, xiaoqu=万科西庐, mianji=88.4, place=西溪, focus=12, watch=0, totalPrice=385, avgPrice=43553, jingdu=120.06259646938, weidu=30.298732658076, city=hz, qu=xihu, date=Wed Oct 11 22:05:58 CST 2017]
+ 22:06:00 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:00 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=黄龙雅苑，难得高楼层小套，自住精装修，看房提前联系, xiaoqu=黄龙雅苑, mianji=64.5, place=黄龙, focus=1, watch=0, totalPrice=320, avgPrice=49613, jingdu=120.144588, weidu=30.275573, city=hz, qu=xihu, date=Wed Oct 11 22:06:00 CST 2017]
+ 22:06:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=友谊新村 阳光充足 生活方便 楼层好, xiaoqu=友谊新村, mianji=59.2, place=黄龙, focus=0, watch=0, totalPrice=350, avgPrice=59122, jingdu=120.151143, weidu=30.273395, city=hz, qu=xihu, date=Wed Oct 11 22:06:03 CST 2017]
+ 22:06:06 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:06 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=嘉绿北苑 四室 自住装修拎包入住, xiaoqu=嘉绿北苑, mianji=156.0, place=嘉绿, focus=0, watch=0, totalPrice=681, avgPrice=43654, jingdu=120.124341, weidu=30.28731, city=hz, qu=xihu, date=Wed Oct 11 22:06:06 CST 2017]
+ 22:06:09 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:09 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=湖畔大厦70年产权大面积三房电梯房, xiaoqu=湖畔大厦, mianji=148.3, place=文一西路, focus=1, watch=0, totalPrice=519, avgPrice=34997, jingdu=120.109395, weidu=30.293076, city=hz, qu=xihu, date=Wed Oct 11 22:06:09 CST 2017]
+ 22:06:12 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:12 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=学军学籍占3年 总价低的落户小套 有小区环境 好出租, xiaoqu=文二新村, mianji=32.59, place=学军, focus=10, watch=0, totalPrice=335, avgPrice=102793, jingdu=120.149489, weidu=30.289353, city=hz, qu=xihu, date=Wed Oct 11 22:06:12 CST 2017]
+ 22:06:15 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:15 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=写字楼 现代化办公 交通便利 户型正, xiaoqu=元茂大厦, mianji=129.34, place=嘉绿, focus=0, watch=0, totalPrice=275, avgPrice=21262, jingdu=120.124925, weidu=30.288383, city=hz, qu=xihu, date=Wed Oct 11 22:06:15 CST 2017]
+ 22:06:18 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:18 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=朗郡东边套，眺望高尔夫球场，房东诚心出售！, xiaoqu=朗郡庭园, mianji=232.11, place=转塘, focus=1, watch=2, totalPrice=560, avgPrice=24127, jingdu=120.074702, weidu=30.169238, city=hz, qu=xihu, date=Wed Oct 11 22:06:18 CST 2017]
+ 22:06:21 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:21 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=五洲国际二层小商铺，租赁 、自用均可, xiaoqu=五洲国际广场, mianji=36.14, place=申花, focus=3, watch=0, totalPrice=180, avgPrice=49807, jingdu=120.103841, weidu=30.300622, city=hz, qu=xihu, date=Wed Oct 11 22:06:21 CST 2017]
+ 22:06:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=保俶小区 2室1厅 350万, xiaoqu=保俶小区, mianji=51.0, place=黄龙, focus=9, watch=0, totalPrice=350, avgPrice=68628, jingdu=120.153195, weidu=30.272454, city=hz, qu=xihu, date=Wed Oct 11 22:06:24 CST 2017]
+ 22:06:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=楼层好，地理位置处于两大超市间，生活购物娱乐一条龙, xiaoqu=金街美地, mianji=71.57, place=转塘, focus=3, watch=1, totalPrice=195, avgPrice=27247, jingdu=120.085108, weidu=30.153339, city=hz, qu=xihu, date=Wed Oct 11 22:06:27 CST 2017]
+ 22:06:30 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:30 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=天苑花园 3室1厅 260万, xiaoqu=天苑花园, mianji=90.28, place=翠苑, focus=6, watch=5, totalPrice=260, avgPrice=28800, jingdu=120.129157, weidu=30.283647, city=hz, qu=xihu, date=Wed Oct 11 22:06:30 CST 2017]
+ 22:06:33 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:33 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=华星公寓 2室1厅 260万, xiaoqu=华星公寓, mianji=64.3, place=翠苑, focus=3, watch=1, totalPrice=260, avgPrice=40436, jingdu=120.129453, weidu=30.285123, city=hz, qu=xihu, date=Wed Oct 11 22:06:33 CST 2017]
+ 22:06:36 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:36 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=大平层 中间套 满两年 大四房, xiaoqu=中海定山府, mianji=164.36, place=转塘, focus=5, watch=1, totalPrice=370, avgPrice=22512, jingdu=120.068853, weidu=30.149384, city=hz, qu=xihu, date=Wed Oct 11 22:06:36 CST 2017]
+ 22:06:39 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:06:39 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=改善178方 大四房 送车位, xiaoqu=中海定山府, mianji=178.31, place=转塘, focus=2, watch=0, totalPrice=420, avgPrice=23555, jingdu=120.068853, weidu=30.149384, city=hz, qu=xihu, date=Wed Oct 11 22:06:39 CST 2017]
+ 22:06:41 [INFO] com.spider.utils.LogUtil.logInfo(31) | 爬取一页结束，共30条数据！
+ 22:36:41 [INFO] com.spider.utils.LogUtil.logInfo(31) | 正在爬取第43页
+ 22:37:00 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:00 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=新世纪花苑，好房不等人，单价低, xiaoqu=新世纪花苑, mianji=123.9, place=三墩, focus=18, watch=4, totalPrice=308, avgPrice=24859, jingdu=120.096638, weidu=30.330565, city=hz, qu=xihu, date=Wed Oct 11 22:37:00 CST 2017]
+ 22:37:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=三房西边套，两房朝南，南北通，中间楼层, xiaoqu=松木场河东, mianji=66.92, place=黄龙, focus=10, watch=6, totalPrice=368, avgPrice=54992, jingdu=120.155837, weidu=30.274953, city=hz, qu=xihu, date=Wed Oct 11 22:37:03 CST 2017]
+ 22:37:07 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:07 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=花园可拓展约500方，采菊东篱下，悠然见南山。, xiaoqu=九月森林, mianji=441.0, place=留下, focus=6, watch=5, totalPrice=1100, avgPrice=24944, jingdu=120.050375, weidu=30.22584, city=hz, qu=xihu, date=Wed Oct 11 22:37:07 CST 2017]
+ 22:37:10 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:10 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=众安白马山庄带露台景观房35万精美装修等你来选, xiaoqu=众安白马山庄, mianji=88.0, place=小和山, focus=24, watch=6, totalPrice=210, avgPrice=23864, jingdu=120.023826, weidu=30.224065, city=hz, qu=xihu, date=Wed Oct 11 22:37:10 CST 2017]
+ 22:37:14 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:14 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=古荡新村东区 2室1厅 240万, xiaoqu=古荡新村东区, mianji=60.81, place=古荡, focus=0, watch=0, totalPrice=240, avgPrice=39468, jingdu=120.124293, weidu=30.281562, city=hz, qu=xihu, date=Wed Oct 11 22:37:14 CST 2017]
+ 22:37:17 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:17 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=桃源春居，有个税，沿河不沿街，学籍不占，采光充足, xiaoqu=桃源春居, mianji=115.48, place=嘉绿, focus=6, watch=1, totalPrice=300, avgPrice=25979, jingdu=120.119424, weidu=30.297044, city=hz, qu=xihu, date=Wed Oct 11 22:37:17 CST 2017]
+ 22:37:20 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:20 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=多层洋房跃层 92%超高得房率 挑空客厅 户型好, xiaoqu=山水人家美林泉, mianji=222.0, place=文三西路, focus=2, watch=1, totalPrice=845, avgPrice=38064, jingdu=120.1158, weidu=30.277116, city=hz, qu=xihu, date=Wed Oct 11 22:37:20 CST 2017]
+ 22:37:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=东南边套，采光通风无影响！诚心出售, xiaoqu=五洲国际广场, mianji=65.0, place=申花, focus=3, watch=1, totalPrice=126, avgPrice=19385, jingdu=120.103841, weidu=30.300622, city=hz, qu=xihu, date=Wed Oct 11 22:37:24 CST 2017]
+ 22:37:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=独栋别墅 位置好 产权清晰 随时交易, xiaoqu=亚洲城花园, mianji=206.0, place=古荡, focus=0, watch=3, totalPrice=750, avgPrice=36408, jingdu=120.118503, weidu=30.281647, city=hz, qu=xihu, date=Wed Oct 11 22:37:27 CST 2017]
+ 22:37:31 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:31 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=银马公寓 文一街十三中 学籍不占用 2008年交付, xiaoqu=银马公寓, mianji=167.0, place=文教, focus=5, watch=2, totalPrice=950, avgPrice=56887, jingdu=120.143957, weidu=30.293855, city=hz, qu=xihu, date=Wed Oct 11 22:37:31 CST 2017]
+ 22:37:35 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:35 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=瑷骊山 75方简装东边套 楼层好 房东诚心出售, xiaoqu=融创瑷骊山, mianji=71.22, place=转塘, focus=4, watch=1, totalPrice=250, avgPrice=35103, jingdu=120.07127, weidu=30.148545, city=hz, qu=xihu, date=Wed Oct 11 22:37:35 CST 2017]
+ 22:37:38 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:38 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=公园南，视野好，楼上楼下，品质生活从此开始, xiaoqu=坤和和家园, mianji=196.0, place=西溪, focus=4, watch=1, totalPrice=670, avgPrice=34184, jingdu=120.068675, weidu=30.239364, city=hz, qu=xihu, date=Wed Oct 11 22:37:38 CST 2017]
+ 22:37:40 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:40 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=一区精装修小三房，中间楼层，户型正气。, xiaoqu=翠苑一区, mianji=60.28, place=翠苑, focus=9, watch=3, totalPrice=260, avgPrice=43133, jingdu=120.134098, weidu=30.292449, city=hz, qu=xihu, date=Wed Oct 11 22:37:40 CST 2017]
+ 22:37:43 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:43 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=九莲新村 低楼层 带大院子 两房朝南, xiaoqu=九莲新村, mianji=75.4, place=九莲, focus=12, watch=3, totalPrice=285, avgPrice=37799, jingdu=120.139348, weidu=30.283244, city=hz, qu=xihu, date=Wed Oct 11 22:37:43 CST 2017]
+ 22:37:46 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:46 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=友谊新村新出精装两房，楼层好，两房朝南，厨卫全明, xiaoqu=友谊新村, mianji=52.12, place=黄龙, focus=7, watch=4, totalPrice=300, avgPrice=57560, jingdu=120.151143, weidu=30.273395, city=hz, qu=xihu, date=Wed Oct 11 22:37:46 CST 2017]
+ 22:37:48 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:48 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=楼层好，采光充足，位置好，精装修 小区环境好 带车位, xiaoqu=西溪诚园明礼苑, mianji=145.0, place=西溪, focus=46, watch=1, totalPrice=410, avgPrice=28276, jingdu=120.08903, weidu=30.294761, city=hz, qu=xihu, date=Wed Oct 11 22:37:48 CST 2017]
+ 22:37:52 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:52 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=同人精华：地段好，配套全，出行方便, xiaoqu=同人精华, mianji=36.48, place=申花, focus=0, watch=1, totalPrice=85, avgPrice=23301, jingdu=120.104924, weidu=30.308564, city=hz, qu=xihu, date=Wed Oct 11 22:37:52 CST 2017]
+ 22:37:55 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:55 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=文鼎苑两房，学籍不占，拎包入住, xiaoqu=耀江文鼎苑, mianji=93.0, place=申花, focus=19, watch=4, totalPrice=586, avgPrice=63011, jingdu=120.101319, weidu=30.303819, city=hz, qu=xihu, date=Wed Oct 11 22:37:55 CST 2017]
+ 22:37:58 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:37:58 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=学苑春晓一室 单价便宜 地段好, xiaoqu=学苑春晓, mianji=35.59, place=翠苑, focus=3, watch=0, totalPrice=81, avgPrice=22760, jingdu=120.134961, weidu=30.299762, city=hz, qu=xihu, date=Wed Oct 11 22:37:58 CST 2017]
+ 22:38:00 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:00 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=同人精华：精装修，位置好，总价低。, xiaoqu=同人精华, mianji=30.79, place=申花, focus=3, watch=0, totalPrice=76, avgPrice=24684, jingdu=120.104924, weidu=30.308564, city=hz, qu=xihu, date=Wed Oct 11 22:38:00 CST 2017]
+ 22:38:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=世贸丽晶城国际公寓 采光充足 生活方便 商圈成熟, xiaoqu=世贸丽晶城欧美中心, mianji=44.07, place=九莲, focus=1, watch=0, totalPrice=160, avgPrice=36306, jingdu=120.143663, weidu=30.279307, city=hz, qu=xihu, date=Wed Oct 11 22:38:03 CST 2017]
+ 22:38:06 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:06 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=浙大求是村 楼层好 阳光充足 交通便利 配套完善, xiaoqu=求是村, mianji=62.26, place=黄龙, focus=4, watch=0, totalPrice=420, avgPrice=67460, jingdu=120.135363, weidu=30.269007, city=hz, qu=xihu, date=Wed Oct 11 22:38:06 CST 2017]
+ 22:38:08 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:08 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=大产权70年 落户读书好地段，精装修公寓, xiaoqu=绿城丁香公寓, mianji=69.97, place=黄龙, focus=60, watch=2, totalPrice=315, avgPrice=45020, jingdu=120.138521, weidu=30.277264, city=hz, qu=xihu, date=Wed Oct 11 22:38:08 CST 2017]
+ 22:38:11 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:11 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=楼层好，视野开阔，配套设施齐全, xiaoqu=中海定山府, mianji=85.46, place=转塘, focus=5, watch=1, totalPrice=265, avgPrice=31009, jingdu=120.068853, weidu=30.149384, city=hz, qu=xihu, date=Wed Oct 11 22:38:11 CST 2017]
+ 22:38:14 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:14 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=金色蓝庭 西边套 不沿街 婚房精装修, xiaoqu=金色蓝庭, mianji=89.21, place=嘉绿, focus=19, watch=1, totalPrice=505, avgPrice=56609, jingdu=120.123404, weidu=30.294375, city=hz, qu=xihu, date=Wed Oct 11 22:38:14 CST 2017]
+ 22:38:17 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:17 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=云溪香山 精装修 地铁房 南区多层类洋房, xiaoqu=云溪香山, mianji=128.36, place=转塘, focus=1, watch=1, totalPrice=385, avgPrice=29994, jingdu=120.079372, weidu=30.155514, city=hz, qu=xihu, date=Wed Oct 11 22:38:17 CST 2017]
+ 22:38:20 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:20 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=之江九里 处于景区边上 地理位置优越, xiaoqu=之江九里, mianji=89.62, place=之江, focus=8, watch=1, totalPrice=328, avgPrice=36599, jingdu=120.100762, weidu=30.171853, city=hz, qu=xihu, date=Wed Oct 11 22:38:20 CST 2017]
+ 22:38:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:24 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=中间套，简装，诚心出售，租客在住, xiaoqu=协安紫郡, mianji=89.0, place=三墩, focus=28, watch=1, totalPrice=295, avgPrice=33147, jingdu=120.078137, weidu=30.331579, city=hz, qu=xihu, date=Wed Oct 11 22:38:24 CST 2017]
+ 22:38:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 22:38:27 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=丹桂花园 绿城独栋别墅 环境好 有天有地, xiaoqu=丹金桂花园, mianji=248.7, place=文三西路, focus=9, watch=1, totalPrice=1500, avgPrice=60314, jingdu=120.104085, weidu=30.279192, city=hz, qu=xihu, date=Wed Oct 11 22:38:27 CST 2017]
+ 22:38:29 [INFO] com.spider.utils.LogUtil.logInfo(31) | 爬取一页结束，共30条数据！
+ 23:08:29 [INFO] com.spider.utils.LogUtil.logInfo(31) | 正在爬取第44页
+ 23:08:32 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:32 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=丹桂花园 绿城独栋别墅 环境好 有天有地, xiaoqu=丹金桂花园, mianji=248.7, place=文三西路, focus=9, watch=1, totalPrice=1500, avgPrice=60314, jingdu=120.104085, weidu=30.279192, city=hz, qu=xihu, date=Wed Oct 11 23:08:32 CST 2017]
+ 23:08:35 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:35 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=坤和西溪里璞园 东边套 景观房 全明户型, xiaoqu=坤和西溪里璞园, mianji=178.57, place=西溪, focus=4, watch=0, totalPrice=712, avgPrice=39873, jingdu=120.066113, weidu=30.294919, city=hz, qu=xihu, date=Wed Oct 11 23:08:35 CST 2017]
+ 23:08:38 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:38 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=朗郡庭园，大户型，高楼层，视野开阔, xiaoqu=朗郡庭园, mianji=258.17, place=转塘, focus=1, watch=0, totalPrice=780, avgPrice=30213, jingdu=120.074702, weidu=30.169238, city=hz, qu=xihu, date=Wed Oct 11 23:08:38 CST 2017]
+ 23:08:41 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:41 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=赞成岭上花苑，四房，中等装修。视野好！, xiaoqu=赞成岭上花苑, mianji=141.83, place=转塘, focus=3, watch=0, totalPrice=320, avgPrice=22563, jingdu=120.066269, weidu=30.151306, city=hz, qu=xihu, date=Wed Oct 11 23:08:41 CST 2017]
+ 23:08:44 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:44 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=正气三房东边套 采光无遮挡 客厅朝东, xiaoqu=德雅花园, mianji=86.98, place=文教, focus=8, watch=0, totalPrice=385, avgPrice=44264, jingdu=120.142156, weidu=30.296896, city=hz, qu=xihu, date=Wed Oct 11 23:08:44 CST 2017]
+ 23:08:46 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:46 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=篁外山庄电梯房可做四房毛坯房楼层好, xiaoqu=中海定山府, mianji=179.15, place=转塘, focus=0, watch=0, totalPrice=395, avgPrice=22049, jingdu=120.068853, weidu=30.149384, city=hz, qu=xihu, date=Wed Oct 11 23:08:46 CST 2017]
+ 23:08:50 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:50 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=东边套 房龄新 电梯房 楼层好, xiaoqu=嘉绿文苑, mianji=77.95, place=嘉绿, focus=13, watch=0, totalPrice=350, avgPrice=44901, jingdu=120.120476, weidu=30.28335, city=hz, qu=xihu, date=Wed Oct 11 23:08:50 CST 2017]
+ 23:08:52 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:52 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=求是竞舟 三房全明户型 诚意出售, xiaoqu=雅仕苑, mianji=102.0, place=文一西路, focus=7, watch=0, totalPrice=370, avgPrice=36275, jingdu=120.112094, weidu=30.291611, city=hz, qu=xihu, date=Wed Oct 11 23:08:52 CST 2017]
+ 23:08:55 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:55 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=上郡大面积户型跃层楼幢位置佳，好房难求！, xiaoqu=上郡, mianji=251.29, place=申花, focus=4, watch=0, totalPrice=950, avgPrice=37805, jingdu=120.108024, weidu=30.311974, city=hz, qu=xihu, date=Wed Oct 11 23:08:55 CST 2017]
+ 23:08:58 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:08:58 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=楼层好，小区位置环境好，生活方便，交通便利, xiaoqu=翠苑一区, mianji=33.8, place=翠苑, focus=7, watch=0, totalPrice=148, avgPrice=43787, jingdu=120.134098, weidu=30.292449, city=hz, qu=xihu, date=Wed Oct 11 23:08:58 CST 2017]
+ 23:09:01 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:01 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=3房朝南 房东自住 户型正气 学籍不占用 户口正常迁出, xiaoqu=西溪公寓, mianji=134.74, place=文教, focus=0, watch=0, totalPrice=650, avgPrice=48242, jingdu=120.14686, weidu=30.290604, city=hz, qu=xihu, date=Wed Oct 11 23:09:01 CST 2017]
+ 23:09:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:03 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=华门世家 不沿街 三房朝南 诚心出售, xiaoqu=华门世家, mianji=141.0, place=九莲, focus=4, watch=0, totalPrice=465, avgPrice=32979, jingdu=120.136856, weidu=30.282657, city=hz, qu=xihu, date=Wed Oct 11 23:09:03 CST 2017]
+ 23:09:06 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:06 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=楼层好，采光充足，美院边，交通方便, xiaoqu=马也美上, mianji=49.89, place=转塘, focus=1, watch=0, totalPrice=90, avgPrice=18040, jingdu=120.087219, weidu=30.152617, city=hz, qu=xihu, date=Wed Oct 11 23:09:06 CST 2017]
+ 23:09:09 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:09 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=绿城丁香公寓 住宅用地 精品装修 交通便利 配套齐全, xiaoqu=绿城丁香公寓, mianji=69.72, place=黄龙, focus=7, watch=0, totalPrice=385, avgPrice=55221, jingdu=120.138521, weidu=30.277264, city=hz, qu=xihu, date=Wed Oct 11 23:09:09 CST 2017]
+ 23:09:12 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:12 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=曙光新村 两房朝南 楼层好 视野宽阔 采光充足 无遮挡, xiaoqu=曙光新村, mianji=64.27, place=黄龙, focus=0, watch=0, totalPrice=396, avgPrice=61616, jingdu=120.137252, weidu=30.267109, city=hz, qu=xihu, date=Wed Oct 11 23:09:12 CST 2017]
+ 23:09:15 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:15 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=翰墨香林五室二厅两卫户型 顶跃 采光充足, xiaoqu=翰墨香林苑, mianji=220.99, place=小和山, focus=4, watch=0, totalPrice=440, avgPrice=19911, jingdu=120.02412, weidu=30.216724, city=hz, qu=xihu, date=Wed Oct 11 23:09:15 CST 2017]
+ 23:09:18 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:18 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=住宅用地70年产权的，可以平迁户口的房子, xiaoqu=世纪新城东区, mianji=53.55, place=嘉绿, focus=12, watch=0, totalPrice=250, avgPrice=46686, jingdu=120.121998, weidu=30.289693, city=hz, qu=xihu, date=Wed Oct 11 23:09:18 CST 2017]
+ 23:09:20 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:20 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=天苑花园 户型正气 交通便利 闹中取静, xiaoqu=天苑花园, mianji=88.0, place=翠苑, focus=2, watch=0, totalPrice=369, avgPrice=41932, jingdu=120.129157, weidu=30.283647, city=hz, qu=xihu, date=Wed Oct 11 23:09:20 CST 2017]
+ 23:09:23 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:23 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=朗郡庭园大面积户型正采光好满两年租客简装, xiaoqu=朗郡庭园, mianji=209.0, place=转塘, focus=5, watch=0, totalPrice=480, avgPrice=22967, jingdu=120.074702, weidu=30.169238, city=hz, qu=xihu, date=Wed Oct 11 23:09:23 CST 2017]
+ 23:09:28 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:09:28 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=桂花城 3室2厅 770万, xiaoqu=桂花城, mianji=131.0, place=文一西路, focus=2, watch=5, totalPrice=770, avgPrice=58779, jingdu=120.102658, weidu=30.288959, city=hz, qu=xihu, date=Wed Oct 11 23:09:28 CST 2017]
+ 23:10:02 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:10:02 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=府苑新村 3室2厅 490万, xiaoqu=府苑新村, mianji=140.8, place=文三西路, focus=21, watch=10, totalPrice=490, avgPrice=34802, jingdu=120.100555, weidu=30.272743, city=hz, qu=xihu, date=Wed Oct 11 23:10:02 CST 2017]
+ 23:10:05 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:10:05 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=坤和西溪里 4室2厅 620万, xiaoqu=坤和西溪里, mianji=172.0, place=西溪, focus=6, watch=1, totalPrice=620, avgPrice=36047, jingdu=120.065746, weidu=30.296537, city=hz, qu=xihu, date=Wed Oct 11 23:10:05 CST 2017]
+ 23:10:08 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:10:08 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=墩莳家园 2室1厅 190万, xiaoqu=墩莳家园, mianji=63.0, place=良渚, focus=12, watch=2, totalPrice=190, avgPrice=30159, jingdu=120.07185054097, weidu=30.342803875124, city=hz, qu=xihu, date=Wed Oct 11 23:10:08 CST 2017]
+ 23:10:11 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:10:11 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=同人精华 1室1厅 76万, xiaoqu=同人精华, mianji=30.79, place=申花, focus=4, watch=2, totalPrice=76, avgPrice=24684, jingdu=120.104924, weidu=30.308564, city=hz, qu=xihu, date=Wed Oct 11 23:10:11 CST 2017]
+ 23:10:13 [INFO] com.spider.utils.LogUtil.logInfo(31) | 抓取成功！
+ 23:10:13 [INFO] com.spider.utils.LogUtil.logInfo(31) | LianjiaHouse [id=null, title=城北商贸园 3室1厅 350万, xiaoqu=城北商贸园, mianji=123.13, place=申花, focus=5, watch=0, totalPrice=350, avgPrice=28426, jingdu=120.102022, weidu=30.318994, city=hz, qu=xihu, date=Wed Oct 11 23:10:13 CST 2017]
+ 23:10:15 [INFO] com.spider.utils.LogUtil.logInfo(31) | 爬取一页结束，共26条数据！
+ 
