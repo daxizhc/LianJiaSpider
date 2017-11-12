@@ -22,7 +22,8 @@ public class TestDao {
 		bean.setTitle("中文");
 		mapper.insert(bean);
 	}
-	
+
+
 	@Test
 	public void testPage(){
 		System.out.println(Jsoup.parse(GetFromUrl.getFromUrl("https://hz.lianjia.com/ershoufang/xiasha/")));
