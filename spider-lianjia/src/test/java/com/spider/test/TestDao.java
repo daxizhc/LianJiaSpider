@@ -23,7 +23,7 @@ public class TestDao {
 		mapper.insert(bean);
 	}
 
-	// i am feature
+	// i am feature 2
 
 	@Test
 	public void testPage(){
